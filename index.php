@@ -28,7 +28,7 @@
                             <span>CONTACT</span>
                             <span>US</span>
                         </div>
-                        <div class="app-contact">CONTACT INFO : <a class="app-contact" style="text-decoration: none;" href="mailto:ERFouX@Gmail.com">ERFouX@Gmail.com</a></div>
+                        <div class="app-contact">CONTACT INFO : <a class="app-contact" style="text-decoration: none;" href="mailto:ERFouX@Gmail.com">ERFOUX@GMAIL.COM</a></div>
                     </div>
                     <div class="screen-body-item">
                         <div class="app-form">
@@ -40,14 +40,13 @@
                                     <input name="email" type="email" class="app-form-control" placeholder="EMAIL" required>
                                 </div>
                                 <div class="app-form-group">
-                                    <input name="contact_no" type="tel" class="app-form-control" placeholder="CONTACT NO">
+                                    <input name="mobile" type="tel" class="app-form-control" placeholder="MOBILE" pattern="09\d{9}" title="Enter a valid 11-digit mobile number starting with 09" inputmode="numeric">
                                 </div>
                                 <div class="app-form-group message">
                                     <input name="message" class="app-form-control" placeholder="MESSAGE" required>
                                 </div>
                                 <div class="app-form-group buttons">
-                                    <button class="app-form-button">CANCEL</button>
-                                    <button type="submit" class="app-form-button">SEND</button>
+                                    <button type="submit" name="submit" class="app-form-button">SEND</button>
                                 </div>
                             </form>
                         </div>
