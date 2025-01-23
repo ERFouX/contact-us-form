@@ -32,22 +32,24 @@
                     </div>
                     <div class="screen-body-item">
                         <div class="app-form">
-                            <div class="app-form-group">
-                                <input name="name" class="app-form-control" placeholder="NAME">
-                            </div>
-                            <div class="app-form-group">
-                                <input name="email" class="app-form-control" placeholder="EMAIL">
-                            </div>
-                            <div class="app-form-group">
-                                <input name="contact_no" class="app-form-control" placeholder="CONTACT NO">
-                            </div>
-                            <div class="app-form-group message">
-                                <input name="message" class="app-form-control" placeholder="MESSAGE">
-                            </div>
-                            <div class="app-form-group buttons">
-                                <button class="app-form-button">CANCEL</button>
-                                <button type="submit" class="app-form-button">SEND</button>
-                            </div>
+                            <form method="POST" action="submited.php">
+                                <div class="app-form-group">
+                                    <input name="name" class="app-form-control" placeholder="NAME">
+                                </div>
+                                <div class="app-form-group">
+                                    <input name="email" class="app-form-control" placeholder="EMAIL">
+                                </div>
+                                <div class="app-form-group">
+                                    <input name="contact_no" class="app-form-control" placeholder="CONTACT NO">
+                                </div>
+                                <div class="app-form-group message">
+                                    <input name="message" class="app-form-control" placeholder="MESSAGE">
+                                </div>
+                                <div class="app-form-group buttons">
+                                    <button class="app-form-button">CANCEL</button>
+                                    <button type="submit" class="app-form-button">SEND</button>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
