@@ -34,16 +34,16 @@
                         <div class="app-form">
                             <form method="POST" action="submited.php">
                                 <div class="app-form-group">
-                                    <input name="name" class="app-form-control" placeholder="NAME">
+                                    <input name="name" type="text" class="app-form-control" placeholder="NAME" required>
                                 </div>
                                 <div class="app-form-group">
-                                    <input name="email" class="app-form-control" placeholder="EMAIL">
+                                    <input name="email" type="email" class="app-form-control" placeholder="EMAIL" required>
                                 </div>
                                 <div class="app-form-group">
-                                    <input name="contact_no" class="app-form-control" placeholder="CONTACT NO">
+                                    <input name="contact_no" type="tel" class="app-form-control" placeholder="CONTACT NO">
                                 </div>
                                 <div class="app-form-group message">
-                                    <input name="message" class="app-form-control" placeholder="MESSAGE">
+                                    <input name="message" class="app-form-control" placeholder="MESSAGE" required>
                                 </div>
                                 <div class="app-form-group buttons">
                                     <button class="app-form-button">CANCEL</button>
