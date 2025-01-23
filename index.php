@@ -12,7 +12,7 @@
     <div class="screen">
       <div class="screen-header">
         <div class="screen-header-left">
-          <div class="screen-header-button close"></div>
+          <a href="closed.php"><div class="screen-header-button close"></div></a>
           <div class="screen-header-button maximize"></div>
           <div class="screen-header-button minimize"></div>
         </div>
